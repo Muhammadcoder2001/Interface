@@ -10,12 +10,19 @@ public class FotballPlayer extends  Player{
         this.countOfGoals = 7;
         this.countOfRedCards = 1;
         this.countOfYellowCards = 3;
+        super.name ="Jamshid";
+        super.teamName = "Rearsenal";
+        super.numberPosition = 6;
+        super.typeOfSport = "Football";
 
     }
 
     @Override
     public void getInfo(){
         super.getInfo();
+        System.out.println("Count of Redcards are " + this.countOfRedCards + "\n"
+        + "Count of YellowCards are " + this.countOfYellowCards + "\n"
+        + "Count of goals are " + this.countOfGoals);
 
     }
 

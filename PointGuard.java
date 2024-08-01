@@ -1,6 +1,6 @@
 package Interface;
 
-public class PointGuard  extends Player{
+public class PointGuard  extends VoleyballPlayer{
 
     private int countOfGuards;
 
@@ -12,6 +12,7 @@ public class PointGuard  extends Player{
     @Override
     public void getInfo(){
         super.getInfo();
+        System.out.println("Count of guard is " + this.countOfGuards);
 
     }
 

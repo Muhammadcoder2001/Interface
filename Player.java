@@ -8,10 +8,6 @@ public class Player implements Interface{
     public String teamName;
 
     public Player(){
-        this.name = "Neymar";
-        this.numberPosition = 7;
-        this.teamName = "Barcelona";
-        this.typeOfSport = "Futbol";
 
     }
 

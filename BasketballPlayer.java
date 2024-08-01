@@ -6,6 +6,10 @@ public class BasketballPlayer extends Player{
 
     public BasketballPlayer(){
         this.numberOfGoals = 4;
+        super.teamName = "Bunyodkor";
+        super.name = "Abduholiq";
+        super.numberPosition = 1;
+        super.typeOfSport = "Basketboll";
 
     }
 
@@ -17,6 +21,7 @@ public class BasketballPlayer extends Player{
     @Override
     public void getInfo(){
         super.getInfo();
+        System.out.println("Number of Goals is " + this.numberOfGoals);
 
     }
 
