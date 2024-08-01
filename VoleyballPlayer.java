@@ -2,7 +2,7 @@ package Interface;
 
 public class VoleyballPlayer extends  Player{
 
-    public int numberOfPoints ;
+    private int numberOfPoints ;
 
     public VoleyballPlayer(){
         this.numberOfPoints = 4;

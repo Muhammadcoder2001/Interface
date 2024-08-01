@@ -2,9 +2,9 @@ package Interface;
 
 public class FotballPlayer extends  Player{
 
-    public int countOfRedCards ;
-    public int countOfYellowCards;
-    public int countOfGoals;
+    private int countOfRedCards ;
+    private int countOfYellowCards;
+    private int countOfGoals;
 
     public FotballPlayer(){
         this.countOfGoals = 7;
