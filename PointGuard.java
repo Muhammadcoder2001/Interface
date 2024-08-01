@@ -1,23 +1,24 @@
 package Interface;
 
-public class GoalKeeper  extends Player{
+public class PointGuard  extends Player{
 
-    private int countOfSaves;
+    private int countOfGuards;
 
-    public GoalKeeper(){
-        super.name ="Abubakr";
-        this.countOfSaves = 9;
+    public PointGuard(){
+        this.countOfGuards = 4;
 
     }
 
     @Override
     public void getInfo(){
         super.getInfo();
+
     }
 
     @Override
     public void getTeamName(){
         super.getTeamName();
+
     }
 
 }
