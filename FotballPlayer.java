@@ -15,13 +15,13 @@ public class FotballPlayer extends  Player{
 
     @Override
     public void getInfo(){
-        this.getInfo();
+        super.getInfo();
 
     }
 
     @Override
     public void getTeamName(){
-        System.out.println(this.teamName);
+        System.out.println(super.teamName);
     }
 
 
