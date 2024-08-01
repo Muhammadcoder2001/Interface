@@ -5,10 +5,10 @@ public class GoalKeeper  extends FotballPlayer{
     private int countOfSaves;
 
     public GoalKeeper(){
-        super.numberPosition = 4;
-        super.typeOfSport = "Darvozabon";
-        super.teamName ="Real Madrid";
-        super.name ="Abubakr";
+//        super.numberPosition = 4;
+//        super.typeOfSport = "Darvozabon";
+//        super.teamName ="Real Madrid";
+//        super.name ="Abubakr";
         this.countOfSaves = 9;
 
     }

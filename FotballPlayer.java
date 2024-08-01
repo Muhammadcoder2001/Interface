@@ -28,7 +28,7 @@ public class FotballPlayer extends  Player{
 
     @Override
     public void getTeamName(){
-        System.out.println(super.teamName);
+        System.out.println("Team name is " + super.teamName);
     }
 
 
